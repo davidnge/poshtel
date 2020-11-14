@@ -1,0 +1,119 @@
+:root {
+
+	--dark-grey: #333;
+	--black: #000;
+	--cream: #FFFAF4;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700');
+
+* {
+	font-family: inter, sans-serif;
+}
+
+html {
+	background-color: var(--cream);
+}
+
+
+h1 { font-size: 102px; margin: 0;}
+
+h2 { font-size: 48px; }
+
+h3 { font-size: 30px; }
+
+h4 { font-size: 24px; }
+
+h5 { font-size: 20px; }
+
+p {
+	font-size: 16px;
+}
+
+.subhead {
+	font-size: 22px;
+	margin-top: 0;
+}
+
+
+.main-container {
+	max-width: 1250px;
+	margin:  auto;
+	margin-top: 1.5rem;
+}
+
+.cta {
+	display: inline-block;
+	padding: 0.5rem 2rem;
+	border: 3px solid;
+	border-radius: 50px;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+/*  navigation */ 
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.header-nav {
+	list-style: none;
+	max-width: 500px;
+	display: flex;
+}
+
+.header-nav li {
+	color: var(--dark-grey) !important;
+
+	margin-left: 2.5rem;
+}
+
+
+.logo {
+	color: var(--dark-grey) !important;
+	font-weight: 700;
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+
+}
+
+
+
+/* header */
+
+.header {
+	margin: 3rem 0;
+	display: grid;
+	grid-template-columns: auto 30%;
+}
+
+
+.header .cta-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.header .cta {
+	font-size: 22px;
+	padding: 1rem 4rem;
+	margin-bottom: 2rem;
+}
+
+
+
+
+
+/* */
+/* */
+/* */
+/* */
+/* */

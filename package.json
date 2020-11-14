@@ -1,0 +1,16 @@
+{
+  "name": "Poshtel",
+  "version": "0.0.1",
+  "description": "A free responsive HTML landing page template",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js' --directory --port 7777 --browser 'chrome'"
+  },
+  "author": "David Nge",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "*"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1"
+  }
+}
