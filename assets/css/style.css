@@ -407,6 +407,10 @@ footer button {
 		user-select: none;
 	}
 
+	.header {
+		grid-template-columns: auto 40%;
+	}
+
 	.header-nav {
 		flex-direction: column;
 		justify-content: center;
@@ -449,8 +453,8 @@ footer button {
 	}
 
 	.header .cta {
-		font-size: 18px;
-		padding: 1rem 2rem;
+		font-size: 14px;
+		padding: 0.5rem 1rem;
 		margin-bottom: 2rem;
 	}
 
@@ -464,7 +468,7 @@ footer button {
 	}
 
 	.social-proof img {
-		max-width: 80px;
+		max-width: 60px;
 	}
 
 	.backed {
